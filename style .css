@@ -1,0 +1,138 @@
+@font-face {
+    font-family: yekan;
+    src: url('./B\ yekan.ttf');
+}
+*{
+    font-family: yekan;
+}
+h2{
+    color:red;   
+}
+footer,header{
+    border:2rem solid rgb(143, 110, 235);
+    background-color: rgb(143, 110, 235);
+    margin-right:5px;
+    margin-left:5px;
+}
+.introduce_book_tv{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+}
+
+header a{
+    color:white;
+}
+nav{ 
+    background-color: rgb(143, 110, 235);
+    color:white;
+    padding-right:20px;
+    margin:-10px 5px;
+}
+nav>ul>li>i>a{
+    color:white;
+    
+}
+hr{
+    border-top: 5px dashed rgb(130, 223, 240);
+    margin:2% 2%;
+}
+#background_color{
+    background-color:skyblue;
+    width: 200px;
+    height: 20px;
+    border: 2px none black;
+    margin:5px 2px 4px;
+    padding: 2px;
+}
+.myclass{
+    color:white;
+    background-color:rgb(188, 132, 240, 0.8);
+    border-style:solid;
+}
+#image{
+    border-color:silver;
+    border-style:double dotted;
+}
+.class-tr{
+    color:black;
+    background-color: silver;
+}
+h2~b{
+    color:blue;
+}
+bdo h2+p{
+    padding-right:24px;
+}
+h2+q{
+    padding-right:24px;
+}
+footer a{
+    color:white;
+
+}
+.type_of_books{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(7, 1fr);
+}
+ol li~p{
+    color:navy;
+    background-color: aliceblue;
+    border:2px dashed rgb(155, 184, 238);
+    margin-bottom:5px;
+    margin-top: 30px;
+    padding:2px;
+}
+div h3{
+    color:white;
+    background-color:blueviolet;
+    width: 200px;
+}
+#suggestion{
+    background-color:skyblue;
+    width:300px;
+    height:40px;
+    border:outset;
+}
+table{
+    margin:30px 10px;
+}
+
+.nav {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 10px; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000; 
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+  
+  a:hover {
+    background-color: #f0f0f0; 
+  }
+
+  .footer_table{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 90%);
+  }
+  
